@@ -1,0 +1,88 @@
+{
+  "menu#global__four-level--menu": {
+    "children": [
+      "menu-item#four-level__menu--products",
+      "menu-item#four-level__menu--quick-order",
+      "menu-item#four-level__menu--air-miles",
+      "menu-item#four-level__menu--catalog",
+      "menu-item#four-level__menu--clearance"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#four-level__menu--products": {
+    "props": {
+      "id": "menu-item-first",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": "false",
+        "tagTitle": "Products",
+        "text": "Products"
+      }
+    },
+    "blocks": ["submenu#product"]
+  },
+  
+  "submenu#product": {
+    "children": [
+      "mega-menu"
+    ]
+  },
+
+  "menu-item#four-level__menu--quick-order": {
+    "props": {
+      "id": "menu-item-first",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": "false",
+        "tagTitle": "Quick Order",
+        "text": "Quick Order"
+      }
+    }
+  },
+  "menu-item#four-level__menu--air-miles": {
+    "props": {
+      "id": "menu-item-first",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": "false",
+        "tagTitle": "Air miles/Offers",
+        "text": "Air miles/Offers"
+      }
+    }
+  },
+  "menu-item#four-level__menu--catalog": {
+    "props": {
+      "id": "menu-item-first",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": "false",
+        "tagTitle": "Catalog",
+        "text": "Catalog"
+      }
+    }
+  },
+  "menu-item#four-level__menu--clearance": {
+    "props": {
+      "id": "menu-item-first",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": "false",
+        "tagTitle": "Clearance",
+        "text": "Clearance"
+      }
+    }
+  }
+}
